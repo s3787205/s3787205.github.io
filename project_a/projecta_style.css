@@ -19,7 +19,6 @@ body {
 }
 h1 {
   color: rgb(128, 0, 0);
-  flex-box: border-box, center;
   margin-left: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   font-weight: bold;
@@ -34,20 +33,23 @@ h2 {
   font-weight: thin;
 }
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-left: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   font-weight: normal;
+  fonnt-size: 1.2rem;
 }
 
 .basic_section {
-  background-color: rgb(229, 130, 1);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
   display: flex;
-  flex-direction: column;
  
+}
+
+.twolist  {
+
 }
 
 .purple {
@@ -59,15 +61,14 @@ p {
   flex-direction: column;
 
 }
-
+/* this is not an exact yellow, but for accessibilty, it a very mustard yellow, better for white text.*/
 .yellow {
-  background-color: rgb(255, 255, 0);
+  background-color: rgb(255, 179, 0);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-
 }
 
 .cyan {
